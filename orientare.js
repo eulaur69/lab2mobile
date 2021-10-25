@@ -1,4 +1,4 @@
-window.addEventListener("deviceorientation", on_device_orientation);
+window.addEventListener("deviceorientation", on_device_orientation(evt));
 
 function on_device_orientation(evt) {
     var alpha = evt.alpha;
