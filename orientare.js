@@ -4,6 +4,9 @@ function on_device_orientation(evt) {
     var alpha = evt.alpha;
     var beta = evt.beta;
     var gamma = evt.gamma;
+    console.log(evt.alpha);
+    console.log(evt.beta);
+    console.log(evt.gamma);
 
     document.getElementById("a").innerHTML = "Alfa = " + alpha;
     document.getElementById("b").innerHTML = "Beta = " + beta;
