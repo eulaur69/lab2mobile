@@ -1,12 +1,12 @@
 window.addEventListener("deviceorientation", on_device_orientation);
 
-function on_device_orientation(evt) {
-    var alpha = evt.alpha;
-    var beta = evt.beta;
-    var gamma = evt.gamma;
-    console.log(evt.alpha);
-    console.log(evt.beta);
-    console.log(evt.gamma);
+function on_device_orientation(event) {
+    var alpha = event.alpha;
+    var beta = event.beta;
+    var gamma = event.gamma;
+    console.log(event.alpha);
+    console.log(event.beta);
+    console.log(event.gamma);
 
     document.getElementById("a").innerHTML = "Alfa = " + alpha;
     document.getElementById("b").innerHTML = "Beta = " + beta;
