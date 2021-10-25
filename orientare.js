@@ -21,4 +21,5 @@ function on_device_orientation(evt) {
     context.beginPath();
     context.rect(-latura_patrat / 2, -latura_patrat / 2, latura_patrat, latura_patrat);
     context.stroke();
+
 }
